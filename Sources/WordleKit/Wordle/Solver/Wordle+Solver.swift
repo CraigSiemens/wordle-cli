@@ -7,8 +7,8 @@ extension Wordle {
         
         let strategy: Strategy
         
-        public init<C>(words: C, strategy: Strategy = .uncommonLetters) where C: Collection, C.Element == String {
-            self.words = Array(words)
+        public init<C>(words: C, strategy: Strategy = .commonLetters) where C: Collection, C.Element == String {
+            self.words = Array(words).sorted()
             self.strategy = strategy
         }
         

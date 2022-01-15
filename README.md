@@ -1,5 +1,5 @@
 # Wordle CLI
-An implementation of Wordle implemented in Swift that cam be played on a command line.
+An implementation of Wordle implemented in Swift that can be played on the command line.
 ```
 OVERVIEW: Wordle in your terminal.
 
