@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug wordle",
+      "program": "${workspaceFolder:Words}/.build/debug/wordle",
+      "args": [],
+      "cwd": "${workspaceFolder:Words}",
+      "preLaunchTask": "swift: Build Debug wordle"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release wordle",
+      "program": "${workspaceFolder:Words}/.build/release/wordle",
+      "args": [],
+      "cwd": "${workspaceFolder:Words}",
+      "preLaunchTask": "swift: Build Release wordle"
+    }
+  ]
+}
